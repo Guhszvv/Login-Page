@@ -1,5 +1,10 @@
 body {
     background-color: #181A25;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    overflow-y: hidden;
 }
 
 h1 {
@@ -8,27 +13,16 @@ h1 {
     font-family:Arial, Helvetica, sans-serif
 }
 
-h2 {
-    color: aliceblue;
-    text-align: left;
-    font-family:Arial, Helvetica, sans-serif
-}
-
-h3 {
-    color: aliceblue;
-    text-align: left;
-    font-family:Arial, Helvetica, sans-serif
-}
-
-h4 {
-    color: aliceblue;
-    text-align: left;
-    font-family:Arial, Helvetica, sans-serif
-}
+.powered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 190px 0px 0px 0px;}
 
 h5 {
-    color: aliceblue;
-    text-align: left;
+    color: #373A4A;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 button {
@@ -36,15 +30,39 @@ button {
     color: aliceblue;
 }
 
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 18px 0px;
+}
+
 input {
     border-radius: 20px;
     border: 1px solid #242737;
-    color: aliceblue;
+    color: #9599B0;
     background-color: #242737;
-    width: 250px;
-    height: 30px;
+    width: 317px;
+    height: 40px;
     outline: none;
-    text-align:center;
+    padding: 5px 5px 5px 20px;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    align-items: center;
 }
 
 input:focus {
@@ -53,16 +71,44 @@ input:focus {
   }
 
 button {
-    color: aliceblue;
+    color: #9599B0;
     border: 1px solid #242737;
-
     background-color: #242737;
     width: 250px;
-    height: 30px;
+    height: 50px;
     text-align:center;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: #04AA6D; /* Green */
+    background-color: #04AA6D;
     color: white;
   }
+
+.line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 18px 0px;
+}
+
+.line-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 30px 0px;
+}
+
+.line {
+    width: 180px;
+    height: 3px;
+    background-color: #242737;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #242737;
+    margin: 0 10px;
+}
